@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="Content">
+	<name>CSSModal</name>
+	<author>Sebastien LHUILLIER</author>
+	<creationDate>Mars 2024</creationDate>
+	<copyright>Sébastien LHUILLIER</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+	<authorUrl>www.sebastien-lhuillier.com</authorUrl>
+	<version>1.0</version>
+	<description>Ce plugin permet de générer une fenetre modale full CSS</description>
+	<files>
+		<filename plugin="cssmodal">cssmodal.php</filename>
+		<filename>cssmodal.xml</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="note1" type="note" class="alert" label="Mode d'emploi" description='{cssmodal "DECLENCHEUR" "TITRE" "HTM_CONTENU"}'/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
